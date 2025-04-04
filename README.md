@@ -46,24 +46,6 @@ Evaluation Metrics
 - Classification Report (Precision, Recall, F1-score)  
 - Cross-Validation Score
 
- How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/forest-cover-detection.git
-   cd forest-cover-detection
-   ```
-
-2. Install required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Open the Jupyter Notebook and run the cells step-by-step:
-   ```
-   jupyter notebook Forest_Cover_Prediction.ipynb
-   ```
-
 Results
 
 Achieved an accuracy of over **90%** using **XGBoost** and **Random Forest** after hyperparameter tuning. Feature importance analysis was used to understand the contribution of each variable.
